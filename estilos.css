@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Bitter:ital,wght@0,100;0,200;1,100 & family= Kumbh+Sans:wght@700 & family= Noto+Serif & family= Outfit:wght@200 & family= PT+Serif & family= Red+Hat+Display:wght@300 & family= Rubik:wght@300 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 95%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: space;
+}
+.container{
+    max-width: 350px;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+}
+.head-card img{
+    max-width: 350px;
+    box-sizing: content-box;
+    border-radius: 15px 15px 0 0;
+}
+.content-card{
+    background:white;
+    text-align: center;
+    padding: 40px 40px 10px 40px;
+    box-sizing: border-box;
+}
+.content-card p:first-child{
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.content-card p:nth-child(2){
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+}
+.package-information{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.1fr;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    margin: 0 30px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.package-information img{
+    width: 35px;
+    text-align: left;
+    margin-right: 20px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.data p{
+    text-align: left;
+    line-height: 20px;
+}
+.data p:first-child{
+    font-weight: 800;
+}
+.data p:last-child{
+    color: hsl(224, 23%, 55%);
+}
+.package-information a{
+    text-align: right;
+    font-weight: 800;
+    color: hsl(245, 75%, 52%);
+}
+.package-information a:active{
+    color: hsl(245, 75%, 72%);
+    text-decoration: none;
+}
+.button-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 20px;
+    text-align: center;
+}
+.button-card button{
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    border: none;
+    box-shadow: 0px 10px 10px -6px rgb(13, 33, 218);
+}
+.button-card button:hover{
+    cursor: pointer;
+}
+.button-card button:active{
+    cursor: pointer;
+    background-color: hsl(245, 75%, 72%);
+}
+.button-card a{
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    text-decoration:none;
+    width: 30%;
+    position: relative;
+    left: 100px;
+}
+.button-card a:hover, .button-card a:active{
+    color: black;
+}
